@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.smilego.tenant.TenantConfiguration,\
+io.smilego.tenant.persistence.datasource.MasterDataSourceConfiguration,\
+io.smilego.tenant.persistence.jpa.MasterPersistenceConfig,\
+io.smilego.tenant.persistence.jpa.TenantPersistenceConfig,\
+io.smilego.tenant.flyway.MasterFlywayConfig,\
+io.smilego.tenant.flyway.TenantFlywayConfig
